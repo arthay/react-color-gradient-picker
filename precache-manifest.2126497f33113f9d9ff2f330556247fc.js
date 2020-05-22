@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a01bfffb21170a78e8c99a26d05f37e2",
+    "revision": "b418aa0f1bbc0fc7d5f68ce14eb1daae",
     "url": "/react-color-gradient-picker/index.html"
   },
   {
-    "revision": "66cb57d789e0b8630157",
+    "revision": "4bd102fe8fb37b48a804",
     "url": "/react-color-gradient-picker/static/css/main.258f62e0.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react-color-gradient-picker/static/js/2.1e61ede4.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "66cb57d789e0b8630157",
-    "url": "/react-color-gradient-picker/static/js/main.3569a6e9.chunk.js"
+    "revision": "4bd102fe8fb37b48a804",
+    "url": "/react-color-gradient-picker/static/js/main.1c4895d8.chunk.js"
   },
   {
     "revision": "8008fbd8cbe66a1e1cde",
