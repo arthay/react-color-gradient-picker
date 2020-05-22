@@ -5,7 +5,7 @@ public
 .babelrc
 .env
 .eslintignore
-.eslint
+.eslintrc
 jsconfig.json
 rollup.config.js
 yarn.lock
