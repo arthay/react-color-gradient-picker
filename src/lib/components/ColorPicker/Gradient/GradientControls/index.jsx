@@ -18,7 +18,7 @@ function GradientControls({ type, degree, changeGradientControl }) {
             gradientDegree = 0;
         }
 
-        changeGradientControl({ degree: gradientDegree });
+        changeGradientControl({ degree: parseInt(gradientDegree, 10) });
     }, [disableClick, degree, changeGradientControl]);
 
     const mouseDownHandler = useCallback(event => {
@@ -39,7 +39,7 @@ function GradientControls({ type, degree, changeGradientControl }) {
 
         const newDegree = calculateDegree(event.clientX, event.clientY, centerX, centerY);
 
-        changeGradientControl({ degree: newDegree });
+        changeGradientControl({ degree: parseInt(newDegree, 10) });
 
         return { centerX, centerY };
     }, [changeGradientControl]);
@@ -57,7 +57,6 @@ function GradientControls({ type, degree, changeGradientControl }) {
     const mouseEvents = useMouseEvents(mouseDownHandler, mouseMoveHandler, mouseUpHandler);
 
     const onMouseDown = event => {
-        console.log(1);
         mouseEvents(event);
     };
 
@@ -92,7 +91,7 @@ function GradientControls({ type, degree, changeGradientControl }) {
                         </div>
                         <div className="gradient-degree-value">
                             <p>
-                                {parseInt(degree, 10)}
+                                {degree}
                                 &#176;
                             </p>
                         </div>

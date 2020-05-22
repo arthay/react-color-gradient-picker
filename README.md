@@ -4,7 +4,7 @@
 
 * [Installation](#installation)
 * [Examples](#examples)
-* [Demos](#demos)
+* [Demos](#demo)
 
 ## Installation
 
@@ -79,7 +79,7 @@ const gradient = {
     ],
     degree: 0,
     type: 'linear',
-    };
+};
 
 function App() {
     const [gradientAttrs, setGradientAttrs] = useState(gradient);
