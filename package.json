@@ -1,0 +1,97 @@
+{
+  "name": "react-color-gradient-picker",
+  "description": "Color picker for react",
+  "version": "0.1.0",
+  "main": "./dist/index-cjs.js",
+  "module": "./dist/index-es.js",
+  "browser": "./dist/index-cjs.js",
+  "style": "./dist/index.css",
+  "author": "Arthur Hayrapetyan",
+  "license": "MIT",
+  "homepage": "https://arthay.github.io/react-color-gradient-picker/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/arthay/react-color-gradient-picker.git"
+  },
+  "bugs": {
+    "url": "https://github.com/arthay/react-color-gradient-picker/issues"
+  },
+  "peerDependencies": {
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.9.6",
+    "@babel/plugin-proposal-class-properties": "^7.8.3",
+    "@babel/plugin-proposal-nullish-coalescing-operator": "^7.8.3",
+    "@babel/plugin-proposal-object-rest-spread": "^7.9.6",
+    "@babel/plugin-proposal-optional-catch-binding": "^7.8.3",
+    "@babel/plugin-syntax-dynamic-import": "^7.8.3",
+    "@babel/plugin-syntax-optional-catch-binding": "^7.8.3",
+    "@babel/polyfill": "^7.8.7",
+    "@babel/preset-env": "^7.9.6",
+    "@babel/preset-react": "^7.9.4",
+    "@rollup/plugin-buble": "^0.21.3",
+    "@rollup/plugin-commonjs": "^12.0.0",
+    "@rollup/plugin-json": "^4.0.3",
+    "@rollup/plugin-multi-entry": "^3.0.1",
+    "@rollup/plugin-node-resolve": "^8.0.0",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^7.1.2",
+    "babel-loader": "^8.1.0",
+    "babel-plugin-webpack-alias": "^2.1.2",
+    "eslint": "^7.0.0",
+    "eslint-config-airbnb": "^18.1.0",
+    "eslint-plugin-babel": "^5.3.0",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-json": "^2.1.1",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-react": "^7.20.0",
+    "eslint-plugin-react-hooks": "^4.0.2",
+    "gh-pages": "^2.2.0",
+    "node-sass": "^4.14.1",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-scripts": "3.4.1",
+    "rollup": "^2.10.5",
+    "rollup-plugin-copy-assets": "^2.0.1",
+    "rollup-plugin-includepaths": "^0.2.3",
+    "rollup-plugin-scss": "^2.5.0",
+    "rollup-plugin-terser": "^5.3.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "rimraf dist && rollup -c",
+    "build:demo": "react-scripts build",
+    "lint": "eslint 'src/**/*.{js,ts,tsx}' --quiet --fix"
+  },
+  "tags": [
+    "react",
+    "color-picker",
+    "gradient"
+  ],
+  "keywords": [
+    "react",
+    "react-hook",
+    "react-functional-component",
+    "color-picker",
+    "picker",
+    "gradient",
+    "rgb",
+    "hsv"
+  ],
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

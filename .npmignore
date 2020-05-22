@@ -1,0 +1,6 @@
+build
+webpack*
+static
+.idea
+src
+public
