@@ -1,6 +1,11 @@
-build
-webpack*
-static
 .idea
+build
 src
 public
+.babelrc
+.env
+.eslintignore
+.eslint
+jsconfig.json
+rollup.config.js
+yarn.lock
