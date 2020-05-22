@@ -23,6 +23,7 @@ function Area({
     changeActivePointIndex,
     updateGradientLeft,
     addPoint,
+    removePoint,
 }) {
     return (
         <div className="picker-area">
@@ -47,6 +48,7 @@ function Area({
                         changeActivePointIndex={changeActivePointIndex}
                         updateGradientLeft={updateGradientLeft}
                         addPoint={addPoint}
+                        removePoint={removePoint}
                     />
                 )
             }

@@ -11,6 +11,7 @@ function GradientPoint({
     positions,
     changeActivePointIndex,
     updateGradientLeft,
+    removePoint,
 }) {
     const activeClassName = activePointIndex === index ? ' active' : '';
 
@@ -83,6 +84,7 @@ function GradientPoint({
             onClick={pointerClickHandler}
             style={pointStyle}
             onMouseDown={onMouseDown}
+            onDoubleClick={() => removePoint(index)}
         >
             <span className={`child-point${activeClassName}`} />
         </div>

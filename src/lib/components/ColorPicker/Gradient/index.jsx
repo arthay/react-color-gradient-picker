@@ -37,25 +37,33 @@ function Gradient({
         setColorValue(value);
     });
 
-    const keyUpHandler = useCallback(event => {
-        if ((event.keyCode === 46 || event.keyCode === 8) && gradientPoints.length > 2) {
-            const localGradientPoints = gradientPoints.slice();
-            localGradientPoints.splice(activePointIndex, 1);
-
-            setGradientPoints(localGradientPoints);
-
-            if (activePointIndex > 0) {
-                setActivePointIndex(activePointIndex - 1);
-            }
-
-            onChange && onChange({
-                points: localGradientPoints,
-                type: gradientType,
-                degree: gradientDegree,
-                style: generateGradientStyle(localGradientPoints, gradientType, gradientDegree),
-            });
+    const removePoint = useCallback((index = activePointIndex) => {
+        if (gradientPoints.length <= 2) {
+            return;
         }
+
+        const localGradientPoints = gradientPoints.slice();
+        localGradientPoints.splice(index, 1);
+
+        setGradientPoints(localGradientPoints);
+
+        if (index > 0) {
+            setActivePointIndex(index - 1);
+        }
+
+        onChange && onChange({
+            points: localGradientPoints,
+            type: gradientType,
+            degree: gradientDegree,
+            style: generateGradientStyle(localGradientPoints, gradientType, gradientDegree),
+        });
     }, [gradientPoints, activePointIndex, gradientType, gradientDegree, onChange]);
+
+    const keyUpHandler = useCallback(event => {
+        if ((event.keyCode === 46 || event.keyCode === 8)) {
+            removePoint(activePointIndex);
+        }
+    }, [activePointIndex, removePoint]);
 
     useEffect(() => {
         document.addEventListener('keyup', keyUpHandler);
@@ -207,6 +215,7 @@ function Gradient({
                 changeActivePointIndex={changeActivePointIndex}
                 updateGradientLeft={updateGradientLeft}
                 addPoint={addPoint}
+                removePoint={removePoint}
             />
             <Preview
                 red={colorRed}

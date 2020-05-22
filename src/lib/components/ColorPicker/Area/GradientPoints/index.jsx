@@ -7,7 +7,7 @@ import { generateGradientStyle, updateGradientActivePercent } from 'lib/helpers'
 import GradientPoint from './GradientPoint';
 
 function GradientPoints({
-    points, activePointIndex, changeActivePointIndex, updateGradientLeft, addPoint,
+    points, activePointIndex, changeActivePointIndex, updateGradientLeft, addPoint, removePoint,
 }) {
     const [pointsStyle, setpointsStyle] = useState({});
     const [width, setWidth] = useState(0);
@@ -53,6 +53,7 @@ function GradientPoints({
                         positions={positions}
                         changeActivePointIndex={changeActivePointIndex}
                         updateGradientLeft={updateGradientLeft}
+                        removePoint={removePoint}
                     />
                 ))
             }
