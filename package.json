@@ -65,7 +65,9 @@
     "start": "react-scripts start",
     "build": "rimraf dist && rollup -c",
     "build:demo": "react-scripts build",
-    "lint": "eslint 'src/**/*.{js,ts,tsx}' --quiet --fix"
+    "lint": "eslint 'src/**/*.{js,ts,tsx}' --quiet --fix",
+    "predeploy": "yarn run build:demo",
+    "deploy": "gh-pages -d build"
   },
   "tags": [
     "react",
