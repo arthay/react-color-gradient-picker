@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/react-color-gradient-picker/static/css/main.258f62e0.chunk.css",
+    "main.js": "/react-color-gradient-picker/static/js/main.93cc6617.chunk.js",
+    "main.js.map": "/react-color-gradient-picker/static/js/main.93cc6617.chunk.js.map",
+    "runtime-main.js": "/react-color-gradient-picker/static/js/runtime-main.a0d53b85.js",
+    "runtime-main.js.map": "/react-color-gradient-picker/static/js/runtime-main.a0d53b85.js.map",
+    "static/js/2.1e61ede4.chunk.js": "/react-color-gradient-picker/static/js/2.1e61ede4.chunk.js",
+    "static/js/2.1e61ede4.chunk.js.map": "/react-color-gradient-picker/static/js/2.1e61ede4.chunk.js.map",
+    "index.html": "/react-color-gradient-picker/index.html",
+    "precache-manifest.e4ec9586f7ba8ad4cb105619363bb255.js": "/react-color-gradient-picker/precache-manifest.e4ec9586f7ba8ad4cb105619363bb255.js",
+    "service-worker.js": "/react-color-gradient-picker/service-worker.js",
+    "static/css/main.258f62e0.chunk.css.map": "/react-color-gradient-picker/static/css/main.258f62e0.chunk.css.map",
+    "static/js/2.1e61ede4.chunk.js.LICENSE.txt": "/react-color-gradient-picker/static/js/2.1e61ede4.chunk.js.LICENSE.txt",
+    "static/media/index.scss": "/react-color-gradient-picker/static/media/alpha-background.42917335.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a0d53b85.js",
+    "static/js/2.1e61ede4.chunk.js",
+    "static/css/main.258f62e0.chunk.css",
+    "static/js/main.93cc6617.chunk.js"
+  ]
+}
