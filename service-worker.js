@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/react-color-gradient-picker/precache-manifest.2126497f33113f9d9ff2f330556247fc.js"
+  "/react-color-gradient-picker/precache-manifest.95aa1e93fb06e698508b35e16b93214c.js"
 );
 
 self.addEventListener('message', (event) => {

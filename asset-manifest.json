@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/react-color-gradient-picker/static/css/main.258f62e0.chunk.css",
-    "main.js": "/react-color-gradient-picker/static/js/main.1c4895d8.chunk.js",
-    "main.js.map": "/react-color-gradient-picker/static/js/main.1c4895d8.chunk.js.map",
+    "main.css": "/react-color-gradient-picker/static/css/main.97ae8ea1.chunk.css",
+    "main.js": "/react-color-gradient-picker/static/js/main.7a03789d.chunk.js",
+    "main.js.map": "/react-color-gradient-picker/static/js/main.7a03789d.chunk.js.map",
     "runtime-main.js": "/react-color-gradient-picker/static/js/runtime-main.a0d53b85.js",
     "runtime-main.js.map": "/react-color-gradient-picker/static/js/runtime-main.a0d53b85.js.map",
     "static/js/2.1e61ede4.chunk.js": "/react-color-gradient-picker/static/js/2.1e61ede4.chunk.js",
     "static/js/2.1e61ede4.chunk.js.map": "/react-color-gradient-picker/static/js/2.1e61ede4.chunk.js.map",
     "index.html": "/react-color-gradient-picker/index.html",
-    "precache-manifest.2126497f33113f9d9ff2f330556247fc.js": "/react-color-gradient-picker/precache-manifest.2126497f33113f9d9ff2f330556247fc.js",
+    "precache-manifest.95aa1e93fb06e698508b35e16b93214c.js": "/react-color-gradient-picker/precache-manifest.95aa1e93fb06e698508b35e16b93214c.js",
     "service-worker.js": "/react-color-gradient-picker/service-worker.js",
-    "static/css/main.258f62e0.chunk.css.map": "/react-color-gradient-picker/static/css/main.258f62e0.chunk.css.map",
+    "static/css/main.97ae8ea1.chunk.css.map": "/react-color-gradient-picker/static/css/main.97ae8ea1.chunk.css.map",
     "static/js/2.1e61ede4.chunk.js.LICENSE.txt": "/react-color-gradient-picker/static/js/2.1e61ede4.chunk.js.LICENSE.txt",
     "static/media/index.scss": "/react-color-gradient-picker/static/media/alpha-background.42917335.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.a0d53b85.js",
     "static/js/2.1e61ede4.chunk.js",
-    "static/css/main.258f62e0.chunk.css",
-    "static/js/main.1c4895d8.chunk.js"
+    "static/css/main.97ae8ea1.chunk.css",
+    "static/js/main.7a03789d.chunk.js"
   ]
 }
