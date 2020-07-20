@@ -22,5 +22,6 @@ export function generateGradientStyle(points, type, degree) {
         }
     });
 
+    style += ')';
     return style;
 }
