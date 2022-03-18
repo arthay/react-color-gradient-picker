@@ -2,7 +2,8 @@ import React, { useCallback } from 'react';
 
 import { rgbToHsv } from 'lib/helpers';
 
-import RGBItem from './item';
+import RGBItem from './Item';
+import AlphaItem from "./AlphaItem";
 
 function RGB({
     red, green, blue, alpha, updateRgb,
@@ -44,7 +45,7 @@ function RGB({
                 onChange={value => changeValue('blue', value)}
             />
 
-            <RGBItem
+            <AlphaItem
                 value={parseInt(alpha * 100, 10)}
                 type="number"
                 label="alpha"
